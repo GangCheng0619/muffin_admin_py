@@ -21,7 +21,7 @@ jobs:
       with:
         node-version: '15.x'
         registry-url: 'https://registry.npmjs.org'
-    - uses: actions/setup-python@v2.2.2
+    - uses: actions/setup-python@v3.1.2
 
     - name: Build/Publish frontend
       run: |
